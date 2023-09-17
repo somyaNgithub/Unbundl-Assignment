@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delights Chocolate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+    <header>
+		<div id="logo">Delights<span id="logo-s">Chocolate</span></div>
+	</header>
+	
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1 id="img1">MiniHeart</h1>
+				<p>ChocoChips Special<br>Add & make your moment special.</p>
+			</div>
+			<img src="img1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1 id="img2">ChocoCoffee</h1>
+				<p>Coffee Special<br>Would you like to have it!!</p>
+			</div>
+			<img src="img2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1 id="img3">ChocoToy</h1>
+				<p>Kids Special<br>Let your kid play with choco.</p>
+			</div>
+			<img src="img3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1 id="img4">ChocoBikis</h1>
+				<p>Biscuits Special <br>Try this Choco with crunch!</p>
+			</div>
+			<img src="img4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1 id="img5">BollyChoco</h1>
+				<p>Any guess!<br>Lets check this special one.</p>
+			</div>
+			<img src="img5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+	
+<script src="script.js"></script>
+</body>
+</html>
+
+

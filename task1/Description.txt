@@ -1,0 +1,25 @@
+Brief Description
+
+1. I would start by designing the UI for both the              carousel and the customizable product section. I             took reference from internet for optimizing my work 
+
+2.  I select html, css and js for building my both the      projects.
+
+For Carousel:
+
+I added a header describing our brand name. 
+
+I used five sliders, made it full responsive and user friendly using js functions @media screen for max 800px and 520px.
+
+As directed I enabled manually movement of products using <> arrows. There also been added five dots that is more friendly with and help user to know at which product they are and can move directly to their desire one.
+
+For Custom pack:
+
+I build a grid having three rows and three colums. Each items are equally spaced.
+
+For adding items to list I prefer to store all the products in one variable in javascript so that we can use it for dynamically adding the variable as well.
+
+I give this a fuctionality that user cannot add more that 8 items by applying control if-else condition over count variable in reloadCard function. Also enable an alert message while exceeding the limit.
+
+It has automatic price calculating feature. also one can increase and decrease quantity of product which can also applicable using js.    
+
+
